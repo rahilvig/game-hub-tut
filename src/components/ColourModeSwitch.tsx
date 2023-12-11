@@ -4,7 +4,7 @@ const ColourModeSwitch = () => {
   const { toggleColorMode, colorMode } = useColorMode();
 
   return (
-    <HStack justifyContent="space-between" padding="10px">
+    <HStack>
       <Switch
         colorScheme="green"
         isChecked={colorMode === "dark"}
